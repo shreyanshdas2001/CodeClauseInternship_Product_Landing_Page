@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeastMode: Unleash your beast!</title>
+    <link rel="icon" type="image/x-icon" href="new.ico" />
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+          url(https://wallpapercave.com/wp/wp2483004.jpg);
+        background-size: cover;
+        font-family: sans-serif;
+      }
+      nav {
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .logo {
+        font-size: 2em;
+        letter-spacing: 3px;
+        font-family: fantasy;
+      }
+      .menu a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        position: relative;
+      }
+      .menu a:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        border-bottom: 2px solid indianred;
+        transition: 0.4s linear;
+      }
+      .menu a:hover:before {
+        width: 90%;
+      }
+      .subscribe {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        background-color: indianred;
+        border-radius: 10px;
+      }
+      .subscribe p {
+        font-size: 14px;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+      }
+      .subscribe p1 {
+        font-size: 11px;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+      }
+      .h-txt {
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+      .h-txt span {
+        letter-spacing: 5px;
+      }
+      .h-txt h1 {
+        font-size: 3.5em;
+      }
+      .h-txt a {
+        text-decoration: none;
+        background: indianred;
+        color: white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        border-radius: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">BeastMode</div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">Plans</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="subscribe">
+          <p>Flash Sale 50% OFF</p>
+          <p1>ON YEARLY MEMBERSHIPS</p1>
+        </div>
+      </nav>
+      <section class="h-txt">
+        <span>Join Us To Transform Your Life</span>
+        <h1>Unleash Your Beast</h1>
+        <br />
+        <a href="#">Get Fit Today!</a>
+      </section>
+    </header>
+  </body>
+</html>
